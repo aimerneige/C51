@@ -20,3 +20,9 @@ Personal practice with C51.
 Build with `Keil` or use the `*.hex` directly.
 
 使用 `Keil` 编译源文件或者直接烧录 `*.hex` 文件到单片机内即可。
+
+## Thanks / 感谢
+
+一个可以让你在 vscode 下直接写 C51 代码并得到编译结果的项目：
+
+<https://github.com/kenvix/VSCode-Keil-C51-Environment>
