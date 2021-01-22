@@ -1,3 +1,10 @@
+/**
+ * author: AimerNeige
+ * generation time: 2021/01/22
+ * filename: main.c
+ * language & build version : C 11
+*/
+
 #include <reg51.h>
 
 sbit led1 = P1^0;
