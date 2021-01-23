@@ -1,14 +1,14 @@
-/**
+﻿/**
  * author: AimerNeige
- * generation time: 2021/01/22
+ * generation time: 2021/01/23
  * filename: main.c
  * language & build version : C 11
 */
 #include <reg52.h>
 #include <intrins.h>
 
-#define ON  1
-#define OFF 0
+#define ON  0
+#define OFF 1
 
 sbit fm = P2^3;
 
