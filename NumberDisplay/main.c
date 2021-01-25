@@ -29,7 +29,7 @@
 
 typedef unsigned char uchar;
 
-uchar numbers[] = { LED_0, LED_1, LED_2, LED_3, LED_4, LED_5, LED_6, LED_7, LED_8, LED_9, LED_A, LED_B, LED_C, LED_D, LED_E, LED_F, }
+uchar numbers[] = { LED_0, LED_1, LED_2, LED_3, LED_4, LED_5, LED_6, LED_7, LED_8, LED_9, LED_A, LED_B, LED_C, LED_D, LED_E, LED_F, };
 
 sbit led_1 = P2^4;
 sbit led_2 = P2^5;
