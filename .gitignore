@@ -1,9 +1,3 @@
-*.exe
-MAIN
-*.hex
-*.LST
-*.M51
-*.OBJ
 build
 src
 env
