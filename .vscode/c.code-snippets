@@ -9,7 +9,7 @@
 		"prefix": "announce",
 		"body": [
 			"/**",
-			" * author: AimerNeige", 
+			" * author: ", 
 			" * generation time: $CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE",
 			" * filename: $TM_FILENAME",
 			" * language & build version : C 11",
@@ -103,7 +103,7 @@
 	},
 	"main":{
 		"prefix": "main",
-		"body": "#include <stdio.h>\n#include <stdlib.h>\nint main() {\n\t$0\n\n\treturn 0;\n}",
+		"body": "#include <reg52.h>\n#include <stdlib.h>\nvoid main() {\n\twhile(1) {\n\t\t$0\n\t}\n}",
 		"description": "主函数",
 		"scope": "c"
 	}
